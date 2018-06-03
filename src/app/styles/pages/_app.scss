@@ -1,0 +1,22 @@
+.app {
+  padding: 2% 15%;
+}
+.Form {
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  &__loading {
+    margin-top: 15px;
+  }
+}
+
+.List {
+  &>div {
+    margin-bottom: 30px;
+    padding: 15px;
+  }
+  .text-warning {
+    text-align: center;
+    color: $warning;
+  }
+}
