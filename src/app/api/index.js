@@ -1,9 +1,7 @@
-import { getFifaByName } from "./fifa";
+import getFifaByName from "./fifa";
 
-export {
-    getFifaByName,
-}
+export { getFifaByName };
 
 export default {
-    getFifaByName,
-}
+  getFifaByName,
+};
